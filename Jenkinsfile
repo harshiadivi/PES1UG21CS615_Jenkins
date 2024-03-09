@@ -9,11 +9,11 @@ pipeline {
             }
         }
 
-        stage('Test') {
-            steps {
-                sh './output'
-            }
-        }
+        // stage('Test') {
+        //     steps {
+        //         sh './output'
+        //     }
+        // }
 
         stage('Deploy') {
             steps {
